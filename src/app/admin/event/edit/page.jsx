@@ -1,5 +1,5 @@
 'use client'
-import EditEvent from '@/components/adminzaky/template/EditEvent.jsx'
+import EditEvent from '@/components/admin/template/EditEvent.jsx'
 const App = () => {
     return (
         <div className='w-full'>

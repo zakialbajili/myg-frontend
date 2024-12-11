@@ -1,5 +1,5 @@
 'use client'
-import AddEvent from '@/components/adminzaky/template/AddEvent.jsx'
+import AddEvent from '@/components/admin/template/AddEvent.jsx'
 const App = () => {
     return (
         <div className='w-full'>

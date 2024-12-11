@@ -1,6 +1,6 @@
 import { Card } from '@nextui-org/card'
 import FormAddEvent from '../organism/FormAddEvent.jsx'
-const AddEvent = () => {
+const AddEvent = ({handleIsAdd}) => {
     return (
         <main
             className='min-h-screen bg-gray-300 py-11'
@@ -16,7 +16,7 @@ const AddEvent = () => {
                     shadow='xl'
                     className='w-[80%] p-8 bg-white mt-9'
                 >
-                    <FormAddEvent />
+                    <FormAddEvent handleIsAdd={handleIsAdd}/>
                 </Card>
             </article>
         </main>

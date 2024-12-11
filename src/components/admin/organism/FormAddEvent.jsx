@@ -10,7 +10,7 @@ import icons from '@/components/icons/icon.tsx'
 import DeskripsiEventInput from '../atom/DeskripsiEventInput.jsx'
 import SubmitAddEvent from '../atom/SubmitAddEvent.jsx'
 import PosterEventInput from '../atom/PosterEventInput.jsx'
-const FormAddEvent = ()=>{
+const FormAddEvent = ({handleIsAdd})=>{
     const {SkrupIcon} = icons
     return(
         <div className='flex flex-col gap-10'>
@@ -35,7 +35,7 @@ const FormAddEvent = ()=>{
                 <SkrupIcon/>
             </div>
             <div className='flex justify-end'>
-                <SubmitAddEvent/>
+                <SubmitAddEvent handleEvent={handleIsAdd}/>
             </div>
         </div>
     )
